@@ -20,6 +20,6 @@ const server = http.createServer((req, res) => {
 
 })
 
-const port = 8080
+const port = 10000
 server.listen(port)
 console.log('Server listen on port ' + port)
